@@ -1,0 +1,3 @@
+# OpenClaw 設定
+*.log
+.env.local

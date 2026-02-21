@@ -1,0 +1,26 @@
+{
+  "env": {
+    "OPENROUTER_API_KEY": "[敏感資訊，請勿公開]",
+    "GITHUB_TOKEN": "[敏感資訊，請勿公開]"
+  },
+  "gateway": {
+    "mode": "local",
+    "bind": "lan",
+    "port": 7860,
+    "trustedProxies": ["0.0.0.0/0"],
+    "auth": {
+      "mode": "token",
+      "token": "[敏感資訊，請勿公開]"
+    },
+    "controlUi": {
+      "allowInsecureAuth": true
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openrouter/z-ai/glm-4.7-flash"
+      }
+    }
+  }
+}
